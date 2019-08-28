@@ -4,8 +4,8 @@ import Format from './format/index'
 const UtilFn = {}
 
 Object.assign(UtilFn.prototype, {
-  toString() {
-
+  test() {
+    alert('hello Util')
   }
 })
 
@@ -14,6 +14,7 @@ class EUtils{
   constructor(Fn) {
     // 定义所有工具函数
     this.Fn = Fn
+    this.vsersion = '1.0.0';
   }
 }
 
