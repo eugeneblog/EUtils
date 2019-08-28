@@ -1,0 +1,26 @@
+{
+  "name": "@jiangchengzi/eutil",
+  "version": "1.0.0",
+  "description": "Provides some common javascript functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/babel src --out-dir lib --presets=@babel/env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeneblog/EUtils.git"
+  },
+  "author": "jiangchengzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugeneblog/EUtils/issues"
+  },
+  "homepage": "https://github.com/eugeneblog/EUtils#readme",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
