@@ -1,13 +1,11 @@
-import Format from './format/index'
+// import Format from './format/index'
 
 // 定义所有函数
-const UtilFn = {}
-
-Object.assign(UtilFn.prototype, {
+const UtilFn = {
   test() {
-    alert('hello Util')
+    console.log('jiangchengzi test')
   }
-})
+}
 
 // 对外输出EUtils实例
 class EUtils{
