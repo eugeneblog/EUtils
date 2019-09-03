@@ -1,9 +1,11 @@
 {
   "name": "@jiangchengzi/eutil",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Provides some common javascript functions",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.server.js",
+    "build": "webpack --config ./config/webpack.config.js",
     "dev": "./node_modules/.bin/babel src --out-dir lib --presets=@babel/env"
   },
   "repository": {
@@ -22,5 +24,11 @@
     "@babel/plugin-transform-arrow-functions": "^7.2.0",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.5"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   }
 }
